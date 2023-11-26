@@ -1,0 +1,86 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"> <!-- displays site properly based on user's device -->
+
+  <link rel="stylesheet" href="styles/index.css">
+
+  <link rel="icon" type="image/png" sizes="32x32" href="./assets/images/favicon-32x32.png">
+  
+  <!--Google Fonts Roboto Weights 400/700-->
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Roboto:wght@400;700&display=swap" rel="stylesheet">
+
+  <title>Frontend Mentor | Newsletter sign-up form with success message</title>
+</head>
+<body>
+  <!-- Sign-up form start -->
+  <div class="newsletter-container">
+    <div class="details-column">
+      <header class="newsletter-title">
+        Stay updated!
+      </header>
+      <div class="newsletter-subtitle">
+        Join 60,000+ product managers receiving monthly updates on:
+      </div>
+      <div class="bullet-points-container">
+        <div class="bullet-points">
+            <img class="bullet-point-image" src="assets/images/icon-success.svg">          
+            Product discovery and building what matters
+        </div>
+        <div class="bullet-points">         
+            <img class="bullet-point-image" src="assets/images/icon-success.svg">          
+            Measuring to ensure updates are a success
+        </div>
+        <div class="bullet-points">
+            <img class="bullet-point-image" src="assets/images/icon-success.svg">
+            And much more!
+        </div>
+      </div>
+      <div class="email-container">
+        <div class="email-text-container">
+          <div class="email-title">
+            Email address
+          </div>
+          <div class="validation-message">
+          </div>
+        </div>
+          <input class="get-email" type="email" placeholder="email@company.com">       
+      </div>
+      <a href="confirmation.html">
+        <button class="subscribe-button">
+          Subscribe to monthly newsletter
+        </button>
+      </a>
+    </div>
+    <div class="image-column">
+      <img class="sign-up-illustration" src="assets/images/illustration-sign-up-desktop.svg">
+    </div>
+  </div>
+
+  <!-- Success message start -->
+  <div class="success-message-container">
+    <div class="success-image-container">
+      <img class="success-image" src="assets/images/icon-list.svg">
+    </div>
+    <header class="success-title">
+      Thanks for subscribing!
+    </header>
+    <div class="success-message">
+    </div>
+    <button class="dismiss-button">
+      Dismiss message
+    </button>
+  </div>
+  
+  <!-- Sign-up form end -->
+
+  <div class="attribution">
+    Challenge by <a href="https://www.frontendmentor.io?ref=challenge" target="_blank">Frontend Mentor</a>. 
+    Coded by <a href="#">Justin Seow Jing Nyap</a>.
+  </div>
+  <script src="scripts/index.js"></script>
+</body>
+</html>

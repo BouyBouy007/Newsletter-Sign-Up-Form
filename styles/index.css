@@ -1,0 +1,180 @@
+body {
+  background-color: hsla(234, 29%, 20%, 0.95);
+  color: hsl(235, 18%, 26%);
+  font-family: 'Roboto', Arial;
+  font-weight: 400;
+  font-size: 16px;
+}
+
+.newsletter-container {
+  display: flex;
+  flex-direction: row;
+  justify-content: space-between;
+  background-color: hsl(0, 0%, 100%);
+  margin: 100px auto;
+  width: 900px;
+  padding: 20px 30px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 40px hsla(0, 0%, 0%, 0.5);
+}
+
+.details-column {
+  padding: 50px 60px;
+}
+
+.newsletter-title {
+  font-size: 60px;
+  font-weight: 700;
+  margin-bottom: 20px;
+}
+
+.newsletter-subtitle {
+  margin-bottom: 20px;
+  line-height: 24px;
+}
+
+.bullet-points {
+  display: flex;
+  align-items: center;
+  margin-bottom: 14px;
+}
+
+.bullet-point-image {
+  height: 20px;
+  margin-right: 10px;
+}
+
+.email-container {
+  display: flex;
+  flex-direction: column;
+}
+
+.email-text-container {
+  display: flex;
+  justify-content: space-between;
+  margin-bottom: 4px;
+}
+
+.email-title {
+  color: hsl(234, 29%, 20%);
+  font-weight: 700;
+}
+
+.validation-message {
+  color: hsl(4, 100%, 67%);
+  font-weight: 700;
+}
+
+.get-email {
+  border: 1px solid hsl(231, 7%, 60%);
+  border-radius: 10px;
+  height: 54px;
+  font-size: 16px;
+  padding-left: 24px;
+  padding-right: 24px;
+  margin-top: 8px;
+  margin-bottom: 20px;
+}
+
+.get-email:focus {
+  outline: none;
+}
+
+.invalidate-email {
+  border-color: hsl(4, 100%, 67%);
+  color: hsl(4, 100%, 67%);
+  background-color: hsla(4, 100%, 67%, 0.15);
+}
+
+.subscribe-button {
+  background-color: hsl(234, 29%, 20%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 14px;
+  width: 100%;
+  height: 54px;
+  cursor: pointer;
+  transition: background-color 0.2s, opacity 0.2s;
+}
+
+.sign-up-illustration {
+  height: 100%;
+  width: 100%;
+}
+
+.success-message-container {
+  display: none;
+  flex-direction: column;
+  justify-content: space-between;
+  background-color: hsl(0, 0%, 100%);
+  margin: 100px auto;
+  width: 380px;
+  padding: 30px 40px;
+  border-radius: 30px;
+  box-shadow: 0px 0px 40px hsla(0, 0%, 0%, 0.5);
+}
+
+.success-image {
+  height: 36px;
+  margin-bottom: 20px;
+}
+
+.success-title {
+  font-weight: 700;
+  font-size: 50px;
+  line-height: 50px;
+  margin-bottom: 20px;
+}
+
+.success-message {
+  font-weight: 400;
+  font-size: 16px;
+  margin-bottom: 20px;
+}
+
+.user-email {
+  font-weight: 700;
+}
+
+.dismiss-button {
+  background-color: hsl(234, 29%, 20%);
+  color: hsl(0, 0%, 100%);
+  border: none;
+  border-radius: 10px;
+  font-weight: 700;
+  font-size: 12px;
+  width: 100%;
+  height: 60px;
+  margin-bottom: 20px;
+  cursor: pointer;
+}
+
+.subscribe-button:hover,
+.dismiss-button:hover {
+  background-color: hsl(4, 100%, 67%);
+}
+
+.subscribe-button:active,
+.dismiss-button:active {
+  opacity: 0.8;
+}
+
+.display-container {
+  display: flex;
+}
+
+.remove-container {
+  display: none;
+}
+
+.attribution { 
+  font-size: 11px; 
+  text-align: center; 
+  color: hsl(0, 0%, 0%); 
+}
+
+.attribution a { 
+  color: hsl(228, 45%, 44%); 
+}
